@@ -29,6 +29,18 @@ git submodule update --init --recursive
 git submodule update --remote --merge upstream/samplecode_365plus1
 ```
 
+## 日付フォルダの取り込み
+
+オリジナルの `upstream/samplecode_365plus1/dates/<日付>` から、リポジトリ直下に同名の日付フォルダをコピーするには、以下を実行してください。
+
+```bash
+bash scripts/copy-date-folder.sh 0423
+```
+
+このコマンドは `upstream/samplecode_365plus1/dates/0423` を `./0423` としてコピーします。
+
+同名ディレクトリがすでに存在する場合は、上書きせずにエラーで終了します。
+
 ## ライセンス
 
 各サブディレクトリに含まれるコードの著作権およびライセンスは、特に明記がない限り、元の配布元および各サブディレクトリ内のライセンス表記に従います。
