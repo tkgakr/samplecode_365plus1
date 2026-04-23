@@ -1,0 +1,3 @@
+[submodule "upstream/samplecode_365plus1"]
+	path = upstream/samplecode_365plus1
+	url = https://github.com/shoeisha-books/samplecode_365plus1
