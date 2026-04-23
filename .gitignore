@@ -6,3 +6,4 @@
 *.suo
 *.swp
 .DS_Store
+*.class
