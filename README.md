@@ -5,7 +5,7 @@
 各サブディレクトリが個別の検証用プロジェクトです。各プロジェクトでは、翔泳社のGitHubリポジトリから取得したコードを配置し、必要に応じて環境構築や動作確認を行います。
 
 オリジナルのコードは、以下のGitHubリポジトリから取得できます。  
-https://github.com/shoeisha-books/samplecode_365plus1
+[https://github.com/shoeisha-books/samplecode_365plus1](https://github.com/shoeisha-books/samplecode_365plus1)
 
 また、このリポジトリではオリジナルのコードを Git サブモジュールとして `upstream/samplecode_365plus1` に保持しています。
 
