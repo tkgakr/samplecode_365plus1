@@ -1,0 +1,10 @@
+{
+  "name": "maze-coffeescript-sample",
+  "private": true,
+  "scripts": {
+    "start": "coffee maze.coffee"
+  },
+  "devDependencies": {
+    "coffeescript": "2.7.0"
+  }
+}
